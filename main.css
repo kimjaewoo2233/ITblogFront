@@ -1,0 +1,238 @@
+body{
+    height: 2000px;
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Unilab';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205-2@1.0/Unilab.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ChusaLove';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/ChusaLove.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.logo{
+    top: 10px;
+    left: 70px;
+    position: absolute;
+    border-radius: 30%;
+    width: 70px;
+    height: 70px;
+}
+.logo-text{
+    font-weight: bolder;
+    margin-left: 50%;
+    line-height: 100px;
+    font-family: ACCchildrenheartOTF-Regular;
+    font-size: 30px;
+}
+
+
+
+
+.swiper{
+    position: relative;
+    height: 300px;
+    margin-top: 10px;
+}
+.swiper .swiper-wrapper .swiper-slide img{
+    height: 530px;
+}
+.swiper .swiper-wrapper .swiper-slide img{
+    width: 100%;
+    border-radius: 10px;
+}
+swiper swiper-button-prev,swiper-button-next{
+    height: 100px;
+    position: absolute;
+    top: 50%;
+}
+.swiper .swiper-wrapper .swiper-slide img{
+    height: 300px;
+}
+.swiper-button-prev:hover{
+    color: wheat;
+}
+.swiper-button-next:hover{
+    color: wheat;
+}
+
+
+
+.content-board{
+    margin: 0 auto;
+    width: 1400px;
+    height: 600px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    position: relative;
+}
+.content-board-one{
+    top: 30px;
+    position: absolute;
+    left: 3%;
+}
+
+.content-board-two{
+    top: 30px;
+    position: absolute;
+    left:38%
+}
+.content-board-three{
+    top: 30px;
+    position: absolute;
+    left:73%
+}
+.content-board img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+.content-board .sub-content{
+    font-size: 16px;
+    margin-top: 2px;
+    opacity: .5;
+    height: 20px;
+    width: 300px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    font-weight: bolder;
+    white-space:nowrap;
+}
+a{
+    text-decoration: none;
+}
+.content-table table tr{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+
+
+
+.box{
+    display: inline-block;
+    position: fixed;
+    top: 40%;
+    height: 350px;
+    width: 140px;
+    left: 90%;
+    z-index: 10;
+    border: 2px unset black;
+    background-color: rgb(141, 163, 223);
+    border-radius: 6px;
+}
+
+.box .box-content{
+    top: 50%;
+    font-family: Unilab;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    font-size: 23px;
+}
+header .box .cant{
+    position:absolute;
+    top: 90%;
+    left: 80%;
+}
+
+
+.content-table{
+    width: 1200px;
+    position: relative;
+    height: 700px;
+    margin: 0 auto;
+
+}
+.content-table table{
+    border-collapse: separate;
+    border-spacing: px;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    height: 700px;
+}
+.content-table table tr td img{
+    width: 180px;
+    height: 160px;
+    border-radius: 8px;
+
+}
+.content-table table tr .td-img{
+    margin-top:30px;
+    margin-left: 24px;
+    float: left;
+}
+.content-table table tr .td-content{
+    margin-left: 6px;
+    float: right;
+}
+
+
+
+
+
+.line{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    top: 70%;
+   
+}
+
+.line .outer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: 4.3s;
+}
+.line .outer{
+    opacity: .5;
+    background-color: black;
+    transform: rotateX(0deg);
+}
+.show .outer{
+    transform: rotateX(180deg);
+}
+.line img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+.footer{
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(90, 102, 93);
+    height: 400px;
+    background-image: url(./images/footer.png);
+    background-size: 2400px;
+}
+.footer .ft-font{
+    position: absolute;
+    left: 40%;
+    font-family: ChusaLove;
+    top: 20%;
+    font-size: 40px;
+}
