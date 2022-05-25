@@ -1,5 +1,5 @@
 body{
-    height: 2000px;
+    height: 2200px;
     margin: 0;
 }
 header{
@@ -66,6 +66,7 @@ swiper swiper-button-prev,swiper-button-next{
 }
 .swiper .swiper-wrapper .swiper-slide img{
     height: 300px;
+    cursor: pointer;
 }
 .swiper-button-prev:hover{
     color: wheat;
@@ -73,6 +74,49 @@ swiper swiper-button-prev,swiper-button-next{
 .swiper-button-next:hover{
     color: wheat;
 }
+
+
+.youtube {
+    position: relative;
+    height: 400px;
+    background-color: #333;
+    overflow: hidden;
+  }
+  .youtube .youtube__area {
+    width: 1920px;
+    position: absolute;
+    /* 16비율 */
+    left: 50%;
+    margin-left: calc(1920px / -2);
+    /* 9비율 */
+    top: 50%;
+    margin-top: calc(1920px * 9 / 16 / -2);
+  }
+  .youtube .youtube__area::before {
+    content: "";
+    display: block;
+    /* 16:9 영상 비율로 요소 크기 만들기! */
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+  }
+  .youtube .youtube__cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    background-image: url("../images/video_cover_pattern.png");
+  }
+  #player {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
 
 
 
@@ -104,6 +148,7 @@ swiper swiper-button-prev,swiper-button-next{
     width: 350px;
     height: 250px;
     border-radius: 10px;
+    cursor: pointer;
 }
 .content-board .sub-content{
     font-size: 16px;
@@ -122,6 +167,24 @@ a{
 .content-table table tr{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
+.content-board-one:hover a img{
+    transition: 3s;
+    border-radius: 20px;
+    box-shadow:  0px 0px 5px 20px rgb(255, 255, 255);
+}
+
+.content-board-two:hover a img{
+    transition: 3s;
+    border-radius: 20px;
+    box-shadow:  0px 0px 5px 20px rgb(255, 255, 255);
+}
+
+.content-board-three:hover a img{
+    transition: 3s;
+    border-radius: 20px;
+    box-shadow:  0px 0px 5px 20px rgb(255, 255, 255);
+}
+
 
 
 
@@ -173,6 +236,7 @@ header .box .cant{
     width: 180px;
     height: 160px;
     border-radius: 8px;
+    cursor: pointer;
 
 }
 .content-table table tr .td-img{
@@ -235,4 +299,16 @@ header .box .cant{
     font-family: ChusaLove;
     top: 20%;
     font-size: 40px;
+}
+
+
+
+td:hover{
+    transition: 3s;
+    
+}
+.content-table table tr td img:hover{
+    transition: 3s;
+    border-radius: 120px;
+    box-shadow:  0px 0px 5px 20px rgb(158, 158, 156);
 }
