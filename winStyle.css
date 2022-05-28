@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'EarlyFontDiary';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_220508@1.0/EarlyFontDiary.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GimpoTitle00';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/GimpoTitle00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.head{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+    z-index: 1;
+    padding-top: 30px;
+}
+.head-text{
+    font-family: GimpoTitle00;
+    width: 150px;
+   
+    margin: 0 auto;
+    color: aliceblue;
+    z-index: 2;
+}
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.content{
+    font-family: EarlyFontDiary;
+    width: 540px;
+    font-size: 24px;
+    margin: 10px auto;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}

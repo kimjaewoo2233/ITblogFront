@@ -222,6 +222,7 @@ header .box .cant{
     position: relative;
     height: 700px;
     margin: 0 auto;
+    border:1px solid black;
 
 }
 .content-table table{
@@ -237,16 +238,17 @@ header .box .cant{
     height: 160px;
     border-radius: 8px;
     cursor: pointer;
+    margin-left: 40px;
 
 }
 .content-table table tr .td-img{
     margin-top:30px;
-    margin-left: 24px;
-    float: left;
 }
 .content-table table tr .td-content{
-    margin-left: 6px;
     float: right;
+    margin-right: 50px;
+    margin-top: 40px;
+    color: antiquewhite;
 }
 
 
