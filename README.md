@@ -6,7 +6,7 @@
 # 첫 화면
 ![image](https://user-images.githubusercontent.com/79129475/181715989-46246d72-8c63-4bff-b93c-5c059d1d75ee.png)
 
-###학교 프로젝트로 제출하기 위해 나에 대한 정보도 작성했고 재미를 주기 위해 이미지도 좀 꾸며봤다.
+### 학교 프로젝트로 제출하기 위해 나에 대한 정보도 작성했고 재미를 주기 위해 이미지도 좀 꾸며봤다.
 ![image](https://user-images.githubusercontent.com/79129475/181716209-dffa444a-45ca-4435-89b3-b3329d86086d.png)
 
 ![image](https://user-images.githubusercontent.com/79129475/181716398-fafd7f97-c8af-4b7b-98e3-836e93f0eaca.png)
